@@ -82,6 +82,7 @@ input{
   cursor: pointer;
   position: relative;
   background: url("../images/icon-arrow-down.svg") no-repeat center right 0.5625rem;
+  transition: color 0.3s ease;
 }
 
 .question::after{
