@@ -34,7 +34,7 @@ p{
   font-size: 0.75rem;
   color: hsl(240, 6%, 50%);
   line-height: 1.48;
-  margin: 0;
+  margin-bottom: 0;
 }
 
 h1{
@@ -93,17 +93,10 @@ h1{
   background: url("../images/icon-arrow-down.svg") no-repeat center;
 }
 
-.answer{
-  transition: .4s ease-in-out all;
-  overflow: hidden;
+.answer:not(.active)
+{
+  display: none;
 }
-.answer:not(.active){
-  height: 0px;
-}
-.active{
-  margin-top: 0.625rem;
-}
-
 
 @media (max-width: 912px){
   h1{
